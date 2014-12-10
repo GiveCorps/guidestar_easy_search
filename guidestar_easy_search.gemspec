@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'guidestar_easy_search/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Guidestar Easy Search"
+  spec.name          = "guidestar_easy_search"
   spec.version       = GuidestarEasySearch::VERSION
   spec.authors       = ["Timothy King"]
   spec.email         = ["timothy@givecorps.com"]
