@@ -18,7 +18,7 @@ module GuidestarEasySearch
     private
 
     def by_ein
-      Guidestar.detailed_search(ein: ein, limit: limit)
+      Guidestar.detailed_search(ein: ein)
     end
 
     def by_keyword

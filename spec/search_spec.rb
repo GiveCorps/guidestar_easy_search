@@ -58,7 +58,7 @@ describe GuidestarEasySearch::Search do
   end
 
   describe "Limiting the number of search results" do
-    let(:guidestar_easy_search) { GuidestarEasySearch::Search.new(ein: "12345678", limit: 12) }
+    let(:guidestar_easy_search) { GuidestarEasySearch::Search.new(keyword: "red pandas", limit: 12) }
     subject { guidestar_easy_search.search! }
 
     it "passes the limit" do
